@@ -6,3 +6,14 @@ h1 {
     color: black;
     margin-left: 20px;
 }
+
+.button {
+    background-color:darksalmon;
+    border: none;
+    color:rgb(182, 101, 101);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
