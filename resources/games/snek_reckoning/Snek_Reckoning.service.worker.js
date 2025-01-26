@@ -3,12 +3,12 @@
 // that they need an Internet connection to run the project if desired.
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const CACHE_VERSION = "1737922196|59580308";
+const CACHE_VERSION = "1737923095|959096181";
 const CACHE_PREFIX = "Snek_Reckoning-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 const OFFLINE_URL = "Snek_Reckoning.offline.html";
 // Files that will be cached on load.
-const CACHED_FILES = ["Snek_Reckoning.html","Snek_Reckoning.js","Snek_Reckoning.offline.html","Snek_Reckoning.icon.png","Snek_Reckoning.apple-touch-icon.png"];
+const CACHED_FILES = ["Snek_Reckoning.html","Snek_Reckoning.js","Snek_Reckoning.offline.html","Snek_Reckoning.icon.png","Snek_Reckoning.apple-touch-icon.png","Snek_Reckoning.worker.js","Snek_Reckoning.audio.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 const CACHABLE_FILES = ["Snek_Reckoning.wasm","Snek_Reckoning.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHABLE_FILES);
