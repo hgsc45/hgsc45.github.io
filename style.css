@@ -80,6 +80,33 @@ body {
     margin: 0 auto;
 }
 
+.linkTableDiv {
+    position: sticky;
+    top: 25%;
+    left: 0%;
+    width: 25%;
+}
+
+.linkTableItem {
+    position: relative;
+    left: -50px;
+    list-style-type: none;
+    background-image: linear-gradient(90deg, #502121, #974949);
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0.5vw;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: transparent;
+    background-image: linear-gradient(#ffffff, #8a8a8a);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 .button {
     background-color:#ffefe2;
     background-image: linear-gradient(#ffefe2, #8a827b);
@@ -111,6 +138,7 @@ body {
 
 .button2:hover {
     background-color:#b29784;
+    background-image: linear-gradient(#b29784, #5f4f44);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     height: 50px;
 }
