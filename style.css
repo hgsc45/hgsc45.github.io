@@ -141,6 +141,12 @@ li a {
     height: 50px;
 }
 
+@media screen and (max-width: 600px) {
+    .button2 {
+        display: none;
+    }
+}
+
 .button2:hover {
     background-color:#b29784;
     background-image: linear-gradient(#b29784, #5f4f44);
