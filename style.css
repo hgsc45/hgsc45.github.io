@@ -98,8 +98,17 @@ video {
     list-style-type: none;
     background-image: linear-gradient(90deg, #502121, #974949);
     font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0.5vw;
+}
+
+.linkTableDiv .linkTableItem:hover {
+    background-image: linear-gradient(90deg, #3d1818, #753535);
+}
+
+.linkTableDiv .linkTableItem:active {
+    background-image: linear-gradient(90deg, #2c0f0f, #5c2828);
 }
 
 li a {
@@ -120,6 +129,7 @@ li a {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     font-size: large;
 }
@@ -144,6 +154,13 @@ li a {
 .button2:hover {
     background-color:#b29784;
     background-image: linear-gradient(#b29784, #5f4f44);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 50px;
+}
+
+.button2:active {
+    background-color:#917a6a;
+    background-image: linear-gradient(#8d7869, #463a32);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     height: 50px;
 }
@@ -174,6 +191,7 @@ li a {
 
 h1 {
     font-size: 96px;
+    font-family: Arial, Helvetica, sans-serif;
     color: transparent;
     background-image: linear-gradient(#ffffff, #8a8a8a);
     -webkit-background-clip: text;
@@ -210,12 +228,57 @@ p {
 }
 
 .portfolioItemImage {
+    transition: 0.3s;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 50%;
+}
+
+.portfolioItemImage:hover {
+    opacity: 0.7;
+    cursor: pointer ;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.4s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+  
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
 
 .dividerDiv {
