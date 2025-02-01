@@ -89,9 +89,9 @@ video {
 
 .linkTableDiv {
     position: sticky;
-    top: 25%;
-    left: 0%;
-    width: 25%;
+    top: 10%;
+    left: 1.5%;
+    width: 20%;
 }
 
 .linkTableItem {
@@ -99,7 +99,6 @@ video {
     left: -50px;
     list-style-type: none;
     background-image: linear-gradient(90deg, #502121, #974949);
-    font-size: 2.5vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0.5vw;
@@ -121,6 +120,7 @@ li a {
     background-image: linear-gradient(#ffffff, #8a8a8a);
     -webkit-background-clip: text;
     background-clip: text;
+    font-size: 24px;
 }
 
 .button {
@@ -189,7 +189,7 @@ li a {
     background-color: #8a4141;
     background-image: linear-gradient(#974949, #502121);
     margin: auto;
-    width: 80%;
+    width: 60%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
 }
@@ -286,7 +286,13 @@ p {
   from {transform:scale(0)}
   to {transform:scale(1)}
 }
-  
+
+@media only screen and (max-width: 1300px) {
+    li a {
+        font-size: 16px;
+    }
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -312,6 +318,10 @@ p {
     .logo {
         width: 96px;
         height: 96px;
+    }
+
+    .linkTableDiv {
+        display: none;
     }
 
     video {
