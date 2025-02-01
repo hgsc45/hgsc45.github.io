@@ -158,6 +158,18 @@ li a {
     height: 50px;
 }
 
+.button3 {
+    width: 33.3333%;
+    height: 50px;
+}
+
+.button3:hover {
+    background-color:#b29784;
+    background-image: linear-gradient(#b29784, #5f4f44);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 50px;
+}
+
 .button2:active {
     background-color:#917a6a;
     background-image: linear-gradient(#8d7869, #463a32);
@@ -281,6 +293,10 @@ p {
 
     .portfolioItemImage {
         width: 100%;
+    }
+
+    .button3 {
+        display: none;
     }
 
     video {
