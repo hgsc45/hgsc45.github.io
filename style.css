@@ -302,6 +302,10 @@ p {
     .portfolioItemImage {
         width: 100%;
     }
+    
+    .button2 {
+        width: 60%;
+    }
 
     .button3 {
         display: none;
