@@ -219,7 +219,7 @@ li a {
 
 .portfolioItemDiv {
     margin: auto;
-    width: 70%;
+    width: 60%;
     text-align: center;
     align-items: center;
     font: bold;
@@ -307,7 +307,7 @@ p {
     margin-right: auto;
     margin-bottom: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 50%;
+    width: 60%;
 }
 
 .portfolioItemImage:hover {
@@ -393,6 +393,14 @@ p {
 
     video {
         width: 100%;
+    }
+
+    .portfolioItemDiv {
+        width: 90%;
+    }
+
+    .portfolioSectionDiv {
+        width: 90%;
     }
 
     .introductionBlockDiv {
