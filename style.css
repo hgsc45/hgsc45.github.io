@@ -311,7 +311,10 @@ p {
 }
 
 .portfolioItemImage:hover {
-    opacity: 0.7;
+    border-radius: 5%;
+    outline-style: solid;
+    outline-color: #8a4141;
+    outline-width: 5px;
     cursor: pointer;
 }
 
