@@ -256,6 +256,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
     color: transparent;
     background-image: linear-gradient(lightgray, #c4c4c4);
@@ -265,6 +266,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     color: transparent;
     background-image: linear-gradient(lightgray, #c4c4c4);
@@ -274,6 +276,7 @@ h3 {
 }
 
 h4 {
+    font-family: 'Times New Roman', Times, serif;
     color: transparent;
     background-image: linear-gradient(#ffffff, #c4c4c4);
     -webkit-background-clip: text;
@@ -283,6 +286,7 @@ h4 {
 }
 
 p {
+    font-family: 'Times New Roman', Times, serif;
     color: transparent;
     background-image: linear-gradient(#ffffff, #c4c4c4);
     -webkit-background-clip: text;
