@@ -291,7 +291,7 @@ p {
 .introductionPageImage {
     display: block;
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     margin-bottom: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
