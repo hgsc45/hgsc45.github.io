@@ -237,7 +237,7 @@ li a {
 .introductionSectionDiv {
     display: inline-block;
     margin: auto;
-    width: 40%;
+    width: 30%;
     text-align: left;
     align-items: left;
     font: bold;
@@ -296,12 +296,13 @@ p {
 
 .introductionPageImage {
     display: block;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: auto;
     margin-bottom: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 80%;
+    width: 65%;
+    min-width: 300px;
 }
 
 .portfolioItemImage {
@@ -357,6 +358,36 @@ p {
 @media only screen and (max-width: 1300px) {
     li a {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .introductionBlockDiv {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        font: bold;
+    }
+    
+    .introductionSectionDiv {
+        display: block;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        font: bold;
+    }
+
+    .introductionPageImage {
+        transition: 0.3s;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 40%;
     }
 }
 
