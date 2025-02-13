@@ -146,7 +146,7 @@ li a {
 
 .button1 {
     float: left;
-    width: 33.3333%;
+    width: 50%;
 }
 
 .button1:hover {
@@ -204,7 +204,7 @@ li a {
 
 .disabled {
     float: left;
-    width: 33.3333%;
+    width: 50%;
     background-image: linear-gradient(#ada39a, #615853);
 }
 
